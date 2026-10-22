@@ -1,0 +1,54 @@
+{
+  "name": "Finnland & Schweden 2027 · Reiseplan",
+  "short_name": "Finnland 27",
+  "description": "Reiseplan, Karte, Sightseeing und Buchungsreferenzen der Finnland-Schweden-Reise vom 19.02. bis 01.03.2027 — auch offline.",
+  "lang": "de",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#10253f",
+  "theme_color": "#0b1a2e",
+  "categories": ["travel", "navigation"],
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Agenda",
+      "short_name": "Agenda",
+      "description": "Tagesweiser Reiseplan",
+      "url": "agenda.html"
+    },
+    {
+      "name": "Karte",
+      "short_name": "Karte",
+      "description": "Alle Stationen und die Route",
+      "url": "map.html"
+    },
+    {
+      "name": "Buchungen",
+      "short_name": "Buchungen",
+      "description": "Alle Referenznummern und Tickets",
+      "url": "links.html"
+    }
+  ]
+}

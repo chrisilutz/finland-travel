@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Karte · Finnland 2027</title>
+  <meta name="description" content="Interaktive Karte der Route Finnland & Schweden 2027.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#0b1a2e">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Finnland 27">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="icon" href="icons/icon-192.png" type="image/png">
+</head>
+<body>
+
+  <nav class="site-nav">
+    <div class="container nav-inner">
+      <a class="nav-brand" href="index.html">Finnland <span class="frost">2027</span></a>
+      <button class="nav-toggle" aria-label="Menü öffnen" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Start</a></li>
+        <li><a href="agenda.html">Agenda</a></li>
+        <li><a href="map.html" class="active">Karte</a></li>
+        <li><a href="sightseeing.html">Sightseeing</a></li>
+        <li><a href="essen.html">Essen</a></li>
+        <li><a href="links.html">Links</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="page-header">
+    <div class="container">
+      <span class="kicker">Alle Stationen</span>
+      <h1>Reisekarte</h1>
+      <p>Von Würzburg über Helsinki und Lappland nach Stockholm und zurück — Marker anklicken für Details.</p>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container map-wrap">
+      <div id="map-controls" class="map-filter"></div>
+      <div id="map" aria-label="Interaktive Reisekarte"></div>
+      <div class="map-legend">
+        <span class="item"><span class="legend-line train"></span> Zug (VR / DSB / DB)</span>
+        <span class="item"><span class="legend-line sleeper"></span> SJ Nachtzug</span>
+        <span class="item"><span class="legend-line ferry"></span> Viking Line</span>
+        <span class="item"><span class="legend-line flight"></span> Flug</span>
+        <span class="item"><span class="legend-line excursion"></span> Fahrten ab dem Mökki</span>
+      </div>
+      <p class="map-hint">Die Linien folgen den Unterwegsbahnhöfen bzw. Hafen- und Straßenpunkten;
+         Genauigkeit auf Ortsebene, keine exakte Gleis- oder Fahrwassergeometrie.
+         Der Abflughafen für den Flug nach Helsinki steht noch nicht fest.</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span class="footer-brand">Finnland &amp; Schweden 2027</span>
+      <span>19.02.–01.03. · Christian &amp; Vera</span>
+      <a href="links.html">Buchungsreferenzen</a>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+  <script src="js/main.js"></script>
+  <script src="js/sights.js"></script>
+  <script src="js/essen.js"></script>
+  <script src="js/map.js"></script>
+</body>
+</html>

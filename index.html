@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Finnland &amp; Schweden 2027 · 19.02.–01.03.</title>
+  <meta name="description" content="Reiseplan Finnland &amp; Schweden 19.02.–01.03.2027 — Mökki in Lappland, Nachtfähre Turku–Stockholm, Stockholm und Nachtzug zurück nach Würzburg.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#0b1a2e">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Finnland 27">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="icon" href="icons/icon-192.png" type="image/png">
+</head>
+<body>
+
+  <nav class="site-nav">
+    <div class="container nav-inner">
+      <a class="nav-brand" href="index.html">Finnland <span class="frost">2027</span></a>
+      <button class="nav-toggle" aria-label="Menü öffnen" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Start</a></li>
+        <li><a href="agenda.html">Agenda</a></li>
+        <li><a href="map.html">Karte</a></li>
+        <li><a href="sightseeing.html">Sightseeing</a></li>
+        <li><a href="essen.html">Essen</a></li>
+        <li><a href="links.html">Links</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="container hero-inner">
+      <span class="kicker">19. Februar – 01. März 2027 · Zug, Fähre &amp; Nachtzug</span>
+      <h1>Vom Polarkreis nach <em>Stockholm</em></h1>
+      <p class="sub">
+        Elf Tage zwischen Mökki-Sauna und Metropole: Lappland auf Langlaufski, Eis und
+        Nordlicht, die Nachtfähre über die Ostsee, Stockholm &mdash; und im Schlafwagen
+        über Malmö und Kopenhagen zurück nach Würzburg.
+      </p>
+      <div class="hero-cta">
+        <a class="btn btn-aurora" href="agenda.html">Zur Agenda</a>
+        <a class="btn btn-ghost" href="map.html">Route ansehen</a>
+      </div>
+      <div class="countdown" id="countdown" aria-label="Countdown bis zur Abreise"></div>
+    </div>
+  </header>
+
+  <section class="section tight">
+    <div class="container">
+      <div class="section-head" style="margin-bottom:1.5rem;">
+        <span class="kicker">Gerade jetzt</span>
+        <h2>Wetter unterwegs</h2>
+        <p>Zeigt den Ort, an dem wir laut Reiseplan heute sind — oder auf Wunsch
+           den tatsächlichen Standort.</p>
+      </div>
+      <div class="weather-card" id="weather">
+        <div class="weather-body" id="weather-body" aria-live="polite">
+          <p class="weather-loading">Wetter wird geladen …</p>
+        </div>
+        <div class="weather-map" id="weather-map" role="img"
+             aria-label="Karte des aktuellen Reiseorts" hidden></div>
+        <a class="weather-maplink" href="map.html">Gesamte Route auf der großen Karte →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-dark">
+    <div class="container">
+      <div class="section-head">
+        <span class="kicker">Die Route</span>
+        <h2>Einmal quer durch den Norden</h2>
+      </div>
+      <p class="route-strip">
+        Würzburg <span class="arrow">→</span> Helsinki <span class="arrow">→</span> Rovaniemi
+        <span class="arrow">→</span> Mökki <span class="arrow">→</span> Turku
+        <span class="arrow">→</span> Stockholm <span class="arrow">→</span> Malmö
+        <span class="arrow">→</span> Hamburg <span class="arrow">→</span> Würzburg
+      </p>
+      <div class="stat-row">
+        <div class="stat"><div class="num">11</div><div class="lbl">Reisetage</div></div>
+        <div class="stat"><div class="num">5</div><div class="lbl">Nächte Mökki</div></div>
+        <div class="stat"><div class="num">1</div><div class="lbl">Ostsee-Nachtfähre</div></div>
+        <div class="stat"><div class="num">1</div><div class="lbl">SJ-Nachtzug, 1.&nbsp;Klasse</div></div>
+        <div class="stat"><div class="num">4</div><div class="lbl">Interrail-Tage</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="kicker">Kurzübersicht</span>
+        <h2>Die Stationen</h2>
+        <p>Vier Kapitel: Anreise, Lappland, Ostsee und Stockholm.</p>
+      </div>
+      <div class="grid">
+        <article class="card">
+          <span class="tag">19. – 20.02.</span>
+          <h3>Helsinki &amp; Tagzug</h3>
+          <p>Flug nach Helsinki, dann mit dem VR-Tagzug in den Norden nach Rovaniemi
+             — und der Großeinkauf bei Prisma.</p>
+          <a class="card-link" href="agenda.html#tag1">Tage ansehen →</a>
+        </article>
+        <article class="card">
+          <span class="tag">20. – 25.02.</span>
+          <h3>Mökki Pihlajanmarja</h3>
+          <p>Fünf Nächte am zugefrorenen Kukasjärvi: Strandsauna, Langlauf ab Haustür,
+             Amethystmine in Luosto und Nordlicht.</p>
+          <a class="card-link" href="agenda.html#tag3">Tage ansehen →</a>
+        </article>
+        <article class="card">
+          <span class="tag">25. – 26.02.</span>
+          <h3>Nachtfähre</h3>
+          <p>Mit dem Tagzug nach Turku, abends um 20:55 Uhr mit Viking Line in der
+             Schlafkabine über die Ostsee.</p>
+          <a class="card-link" href="agenda.html#tag7">Tag ansehen →</a>
+        </article>
+        <article class="card">
+          <span class="tag">26. – 28.02.</span>
+          <h3>Stockholm</h3>
+          <p>Södermalm, Vasa-Museum, Moderna Museet und Fotografiska — zum Abschied
+             der Nachtzug im Schlafwagen nach Malmö.</p>
+          <a class="card-link" href="agenda.html#tag8">Tage ansehen →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-cream tight">
+    <div class="container">
+      <div class="section-head" style="margin-bottom:1.5rem;">
+        <span class="kicker">Alles Wichtige</span>
+        <h2>Schnellzugriff</h2>
+      </div>
+      <div class="grid">
+        <article class="card">
+          <h3>📅 Agenda</h3>
+          <p>Der Reiseplan, Tag für Tag — mit Interrail-Tagen, Fähre und Nachtzug.</p>
+          <a class="card-link" href="agenda.html">Öffnen →</a>
+        </article>
+        <article class="card">
+          <h3>🗺️ Karte</h3>
+          <p>Route, Sehenswürdigkeiten und Essen auf einer interaktiven Karte.</p>
+          <a class="card-link" href="map.html">Öffnen →</a>
+        </article>
+        <article class="card">
+          <h3>❄️ Sightseeing</h3>
+          <p>Natur, Museen und Aussichten in Lappland und Stockholm.</p>
+          <a class="card-link" href="sightseeing.html">Öffnen →</a>
+        </article>
+        <article class="card">
+          <h3>☕ Essen</h3>
+          <p>Mökki-Einkauf, Loipencafé, Specialty Coffee und Husmanskost.</p>
+          <a class="card-link" href="essen.html">Öffnen →</a>
+        </article>
+        <article class="card">
+          <h3>🎫 Buchungen</h3>
+          <p>Referenznummern, Tickets und externe Links auf einen Blick.</p>
+          <a class="card-link" href="links.html">Öffnen →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span class="footer-brand">Finnland &amp; Schweden 2027</span>
+      <span>19.02.–01.03. · Christian &amp; Vera</span>
+      <a href="links.html">Buchungsreferenzen</a>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+  <script src="js/main.js"></script>
+  <script src="js/weather.js"></script>
+</body>
+</html>
