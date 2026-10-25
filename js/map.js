@@ -27,7 +27,7 @@
     wuerzburg: { coords: [49.8016, 9.9358], name: "Würzburg Hbf",
       desc: "Start am Fr 19.02. und Ziel am Mo 01.03. — mit dem ICE aus Hamburg." },
     helsinki: { coords: [60.1719, 24.9414], name: "Helsinki",
-      desc: "Ankunft per Flug am 19.02.; am 20.02. mit dem VR-Tagzug nach Rovaniemi (Interrail-Tag 1)." },
+      desc: "Ankunft mit VL850 am 19.02. um 16:50 Uhr; am 20.02. mit dem VR-Tagzug nach Rovaniemi (Interrail-Tag 1)." },
     rovaniemi: { coords: [66.4990, 25.7100], name: "Rovaniemi",
       desc: "Ankunft des Tagzugs am 20.02., Großeinkauf bei Prisma. Am 25.02. Abfahrt nach Turku (Interrail-Tag 2)." },
     moekki: { coords: [66.8520, 25.3200], name: "Mökki Pihlajanmarja",
@@ -42,6 +42,8 @@
       desc: "Ankunft des SJ Nattåg am 01.03.; Frühstücksbuffet im Clarion Hotel Malmö Live / Scandic Kramer." },
     kopenhagen: { coords: [55.6727, 12.5648], name: "København H",
       desc: "Über die Öresundbrücke — weiter mit dem EuroCity nach Hamburg." },
+    frankfurt: { coords: [50.0379, 8.5622], name: "Frankfurt Flughafen (FRA)",
+      desc: "Lufthansa VL850 nach Helsinki, Abflug 19.02. um 13:25 Uhr, Terminal 1 · Buchung 9664W4." },
     hamburg: { coords: [53.5530, 10.0067], name: "Hamburg Hbf",
       desc: "Umstieg auf den ICE nach Würzburg Hbf." }
   };
@@ -51,8 +53,11 @@
      Ortsebene — keine exakte Gleis- oder Fahrwassergeometrie.             */
 
   var corridor = {
-    /* Flug: Abflughafen noch offen, daher Luftlinie ab Würzburg */
-    flight: [[49.8016, 9.9358], [60.3172, 24.9633], [60.1719, 24.9414]],
+    /* Lufthansa VL850: Frankfurt (FRA) → Helsinki (HEL), Luftlinie */
+    flight: [[50.0379, 8.5622], [60.3172, 24.9633]],
+
+    /* Anreise Würzburg → Frankfurt Flughafen (Verbindung noch offen) */
+    wuerzburgFrankfurt: [[49.8016, 9.9358], [49.9800, 9.1440], [50.0530, 8.5700]],
 
     /* VR Tagzug: Hauptbahn Helsinki – Tampere – Seinäjoki – Oulu – Kemi */
     helsinkiRovaniemi: [
@@ -166,7 +171,8 @@
   };
 
   var segments = [
-    { type: "flight",    label: "Flug: Würzburg → Helsinki (Abflughafen offen)", pts: corridor.flight },
+    { type: "train",     label: "Würzburg → Frankfurt Flughafen (19.02.)",       pts: corridor.wuerzburgFrankfurt },
+    { type: "flight",    label: "Lufthansa VL850: Frankfurt → Helsinki (19.02.)", pts: corridor.flight },
     { type: "train",     label: "VR Tagzug: Helsinki → Rovaniemi (20.02.)",      pts: corridor.helsinkiRovaniemi },
     { type: "excursion", label: "Mökki ↔ Rovaniemi",                             pts: corridor.moekkiRovaniemi },
     { type: "excursion", label: "Mökki → Unarinköngäs",                          pts: corridor.moekkiUnarin },

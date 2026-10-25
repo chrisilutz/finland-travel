@@ -22,7 +22,7 @@
 
   /* ---- Wo sind wir wann? ---- */
   var STATIONS = [
-    { date: "2027-02-19", name: "Helsinki",           coords: [60.1699, 24.9384], note: "Anreise per Flug" },
+    { date: "2027-02-19", name: "Helsinki",           coords: [60.1699, 24.9384], note: "Flug VL850, Ankunft 16:50" },
     { date: "2027-02-20", name: "Rovaniemi",          coords: [66.5039, 25.7294], note: "Tagzug & Großeinkauf" },
     { date: "2027-02-21", name: "Kukasjärvi (Mökki)", coords: [66.8520, 25.3200], note: "Ankommen & Sauna" },
     { date: "2027-02-22", name: "Luosto",             coords: [67.1530, 26.9070], note: "Amethystmine & Loipe" },

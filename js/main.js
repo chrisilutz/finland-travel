@@ -67,11 +67,11 @@
     });
   }
 
-  /* ---- Countdown bis zur Abreise: Fr 19.02.2027 (Flug nach Helsinki; Uhrzeit noch offen → 00:00) ---- */
+  /* ---- Countdown bis zur Abreise: Fr 19.02.2027, 13:25 (Lufthansa VL850 ab Frankfurt) ---- */
   var el = document.getElementById("countdown");
   if (!el) return;
 
-  var target = new Date("2027-02-19T00:00:00+01:00").getTime();
+  var target = new Date("2027-02-19T13:25:00+01:00").getTime();
   var units = [
     { key: "d", label: "Tage" },
     { key: "h", label: "Std." },

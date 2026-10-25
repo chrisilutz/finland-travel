@@ -27,6 +27,12 @@ var LINKS = [
     ]
   },
   {
+    title: "Flug",
+    items: [
+      { what: "Lufthansa VL850: Frankfurt → Helsinki", small: "19.02.2027 · 13:25 → 16:50 Ortszeit · Economy Light, nur Handgepäck · Fluggast: Christian Lutz (Vera: noch zu ergänzen)", ref: "9664W4", url: "https://www.lufthansa.com", ext: "lufthansa.com" }
+    ]
+  },
+  {
     title: "Fähre & Nachtzug",
     items: [
       { what: "Viking Line: Nachtfähre Turku → Stockholm", small: "25.02.2027 · Abfahrt 20:55 Uhr · Schlafkabine · Interrail-Rabatt", url: "https://www.vikingline.com", ext: "vikingline.com" },
