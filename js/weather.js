@@ -31,8 +31,9 @@
     { date: "2027-02-25", name: "Turku (Fähre)",      coords: [60.4353, 22.2242], note: "Tagzug & Nachtfähre" },
     { date: "2027-02-26", name: "Stockholm",          coords: [59.3293, 18.0686], note: "Ankunft mit der Fähre" },
     { date: "2027-02-27", name: "Stockholm",          coords: [59.3293, 18.0686], note: "Södermalm & Museen" },
-    { date: "2027-02-28", name: "Stockholm",          coords: [59.3293, 18.0686], note: "Abreise mit dem Nachtzug" },
-    { date: "2027-03-01", name: "Würzburg",           coords: [49.7913,  9.9534], note: "Heimreise" }
+    { date: "2027-02-28", name: "Stockholm",          coords: [59.3293, 18.0686], note: "Fotografiska & Altstadt" },
+    { date: "2027-03-01", name: "Stockholm",          coords: [59.3293, 18.0686], note: "Abreise mit dem Nachtzug" },
+    { date: "2027-03-02", name: "Würzburg",           coords: [49.7913,  9.9534], note: "Heimreise" }
   ];
 
   /* Knöpfe: ein Ort pro Name, Reihenfolge der Reise; Kukasjärvi nur einmal */

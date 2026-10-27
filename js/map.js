@@ -25,7 +25,7 @@
   /* ---- Stationen (Verkehr & Unterkunft) ---- */
   var stations = {
     wuerzburg: { coords: [49.8016, 9.9358], name: "Würzburg Hbf",
-      desc: "Start am Fr 19.02. und Ziel am Mo 01.03. — mit dem ICE aus Hamburg." },
+      desc: "Start am Fr 19.02. und Ziel am Di 02.03. — mit dem ICE aus Hamburg." },
     helsinki: { coords: [60.1719, 24.9414], name: "Helsinki",
       desc: "Ankunft mit VL850 am 19.02. um 16:50 Uhr; am 20.02. mit dem VR-Tagzug nach Rovaniemi (Interrail-Tag 1)." },
     rovaniemi: { coords: [66.4990, 25.7100], name: "Rovaniemi",
@@ -37,9 +37,9 @@
       desc: "Viking Line Nachtfähre nach Stockholm, Abfahrt 25.02. um 20:55 Uhr (Schlafkabine).",
       link: "https://www.vikingline.com" },
     stockholm: { coords: [59.3303, 18.0586], name: "Stockholm Central",
-      desc: "Fähre am 26.02. morgens, drei Tage Stadt. Abfahrt des Nachtzugs am 28.02. um 23:00 Uhr." },
+      desc: "Fähre am 26.02. morgens, vier Tage Stadt. Abfahrt des SJ Night trains am Mo 01.03. um 23:16 Uhr (Buchung WQXTRN7J)." },
     malmoe: { coords: [55.6093, 13.0007], name: "Malmö Central",
-      desc: "Ankunft des SJ Nattåg am 01.03.; Frühstücksbuffet im Clarion Hotel Malmö Live / Scandic Kramer." },
+      desc: "Ankunft des Night trains am Di 02.03. um 06:59 Uhr; Frühstück im Zug bis 09:00 Uhr." },
     kopenhagen: { coords: [55.6727, 12.5648], name: "København H",
       desc: "Über die Öresundbrücke — weiter mit dem EuroCity nach Hamburg." },
     frankfurt: { coords: [50.0379, 8.5622], name: "Frankfurt Flughafen (FRA)",
@@ -97,7 +97,7 @@
       [59.3500, 18.1100]   // Värtahamnen
     ],
 
-    /* SJ Nattåg über die Södra stambanan */
+    /* SJ Night train über die Södra stambanan */
     stockholmMalmoe: [
       [59.3303, 18.0586],  // Stockholm C
       [59.1950, 17.6260],  // Södertälje
@@ -181,8 +181,8 @@
     { type: "excursion", label: "Mökki → Sodankylä",                             pts: corridor.moekkiSodankyla },
     { type: "train",     label: "VR Tagzug: Rovaniemi → Turku (25.02.)",         pts: corridor.rovaniemiTurku },
     { type: "ferry",     label: "Viking Line: Turku → Stockholm (25.02.)",       pts: corridor.ferryTurkuStockholm },
-    { type: "sleeper",   label: "SJ Nattåg: Stockholm → Malmö (28.02.)",         pts: corridor.stockholmMalmoe },
-    { type: "train",     label: "Malmö → København H (01.03.)",                  pts: corridor.malmoeKopenhagen },
+    { type: "sleeper",   label: "SJ Night train: Stockholm → Malmö (01.03.)",         pts: corridor.stockholmMalmoe },
+    { type: "train",     label: "Malmö → København H (02.03.)",                  pts: corridor.malmoeKopenhagen },
     { type: "train",     label: "EuroCity: København → Hamburg",                 pts: corridor.kopenhagenHamburg },
     { type: "train",     label: "ICE: Hamburg → Würzburg",                       pts: corridor.hamburgWuerzburg }
   ];

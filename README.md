@@ -1,6 +1,6 @@
 # Finnland & Schweden 2027 ❄️
 
-Statische Travel-Website zur Reise vom **19. Februar bis 01. März 2027** —
+Statische Travel-Website zur Reise vom **19. Februar bis 02. März 2027** —
 Mökki in Lappland, Nachtfähre Turku → Stockholm, Stockholm und der SJ-Nachtzug
 zurück nach Würzburg (Interrail Global Pass, 4 Reisetage).
 
@@ -13,7 +13,7 @@ Vanilla HTML/CSS/JS ohne Build-Step, Leaflet/OpenStreetMap, Open-Meteo, PWA mit 
 | Datei | Inhalt |
 |---|---|
 | `index.html` | Hero, Countdown, Wetter am aktuellen Reiseort, Stationen |
-| `agenda.html` | Tagesplan 19.02.–01.03. mit Interrail-Tagen, Fähre, Nachtzug |
+| `agenda.html` | Tagesplan 19.02.–02.03. mit Interrail-Tagen, Fähre, Nachtzug |
 | `map.html` | Leaflet-Karte: Route, Stationen, Sightseeing, Essen (Marker-Filter, Ausschnitte) |
 | `sightseeing.html` | Sehenswürdigkeiten mit Region-Tabs, Kategorie-Filter und Detail-Popup |
 | `essen.html` | Einkauf, Cafés, Restaurants mit Region-Tabs und Kategorie-Filter |

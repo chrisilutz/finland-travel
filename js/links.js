@@ -14,8 +14,8 @@ var LINKS = [
       { what: "Interrail Global Pass", small: "4 Reisetage innerhalb von 1 Monat · Reisetage siehe unten", url: "https://www.interrail.eu", ext: "interrail.eu" },
       { what: "Interrail-Tag 1 · 20.02.2027", small: "VR Tagzug Helsinki → Rovaniemi" },
       { what: "Interrail-Tag 2 · 25.02.2027", small: "VR Tagzug Rovaniemi → Turku Satama" },
-      { what: "Interrail-Tag 3 · 28.02.2027", small: "SJ Nattåg Stockholm C → Malmö C (1. Klasse Schlafwagen)" },
-      { what: "Interrail-Tag 4 · 01.03.2027", small: "Malmö C → København H → Hamburg Hbf → Würzburg Hbf" }
+      { what: "Interrail-Tag 3 · 01.03.2027", small: "SJ Night train Stockholm C → Malmö C (1. Klasse, privates Schlafabteil) — Abfahrt 23:16, Zählweise siehe Hinweis in der Agenda" },
+      { what: "Interrail-Tag 4 · 02.03.2027", small: "Malmö C → København H → Hamburg Hbf → Würzburg Hbf" }
     ]
   },
   {
@@ -36,7 +36,7 @@ var LINKS = [
     title: "Fähre & Nachtzug",
     items: [
       { what: "Viking Line: Nachtfähre Turku → Stockholm", small: "25.02.2027 · Abfahrt 20:55 Uhr · Schlafkabine · Interrail-Rabatt", url: "https://www.vikingline.com", ext: "vikingline.com" },
-      { what: "SJ Nattåg: Stockholm C → Malmö C", small: "28.02.2027 · 23:00 Uhr · 1. Klasse Schlafwagenabteil (1 klass Sovvagn) · inkl. Hotel-Frühstücksbuffet im Clarion Hotel Malmö Live / Scandic Kramer", url: "https://www.sj.se", ext: "sj.se" }
+      { what: "SJ Night train: Stockholm C → Malmö C", small: "Mo 01.03.2027 · 23:16 → Di 02.03. 06:59 · 1. Klasse, privates Schlafabteil (Wagen 12, Plätze 16 und 18) · Bett gemacht, Dusche/WC, Frühstück, SJ Lounge · 2 Reisende: Vera Taube, Christian Lutz · erstattbar", ref: "WQXTRN7J", url: "https://www.sj.se", ext: "sj.se" }
     ]
   },
   {
@@ -44,8 +44,8 @@ var LINKS = [
     items: [
       { what: "VR Finnland: Helsinki → Rovaniemi", small: "20.02.2027 · Tagzug", url: "https://www.vr.fi", ext: "vr.fi" },
       { what: "VR Finnland: Rovaniemi → Turku Satama", small: "25.02.2027 · Tagzug, Anschluss an die Fähre um 20:55", url: "https://www.vr.fi", ext: "vr.fi" },
-      { what: "DSB: EuroCity Kopenhagen → Hamburg", small: "01.03.2027", url: "https://www.dsb.dk", ext: "dsb.dk" },
-      { what: "Deutsche Bahn: ICE Hamburg → Würzburg Hbf", small: "01.03.2027", url: "https://www.bahn.de", ext: "bahn.de" }
+      { what: "DSB: EuroCity Kopenhagen → Hamburg", small: "02.03.2027", url: "https://www.dsb.dk", ext: "dsb.dk" },
+      { what: "Deutsche Bahn: ICE Hamburg → Würzburg Hbf", small: "02.03.2027", url: "https://www.bahn.de", ext: "bahn.de" }
     ]
   },
   {
