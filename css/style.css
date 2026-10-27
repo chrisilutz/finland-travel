@@ -794,6 +794,7 @@ img { max-width: 100%; display: block; }
 .day:last-child { border-bottom: none; }
 
 .day-date { text-align: right; }
+.day-date .dow, .day-date .dom, .day-date .mon { display: block; }
 .day-date .dow {
   font-size: 0.75rem;
   font-weight: 600;

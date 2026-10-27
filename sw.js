@@ -16,7 +16,7 @@
    wird beim Aktivieren entfernt.
 */
 
-var VERSION = "v4";
+var VERSION = "v5";
 var SHELL = "finnland-shell-" + VERSION;
 var RUNTIME = "finnland-runtime-" + VERSION;
 var TILES = "finnland-tiles-" + VERSION;
