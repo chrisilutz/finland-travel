@@ -34,8 +34,7 @@ Ein Hash wie `essen.html#pelikan` oder `sightseeing.html#stockholm` öffnet Tab 
 
 ## Offene Punkte (in der Agenda als „noch zu ergänzen“ markiert)
 
-Anreise Würzburg → Frankfurt Flughafen, Treffpunkt mit Vera in Helsinki (sie reist separat mit einer Studierendengruppe; Lufthansa-Buchung 9664W4 gilt nur für Christian), Unterkunft in Helsinki und Stockholm, Transfer Rovaniemi ↔ Mökki,
-Zugzeiten der VR-Tagzüge. Der Countdown zählt bis 19.02.2027, 13:25 Uhr (Abflug Frankfurt).
+Anreise Würzburg → Frankfurt Flughafen, Treffpunkt mit Vera in Helsinki (sie reist separat mit einer Studierendengruppe; Lufthansa-Buchung 9664W4 gilt nur für Christian), genaue Zeiten der VR-Tagzüge. Hotels (Helsinki, Stockholm) und Mietwagen sind über LOMA gebucht. Der Countdown zählt bis 19.02.2027, 13:25 Uhr (Abflug Frankfurt).
 
 ## Offline (PWA)
 

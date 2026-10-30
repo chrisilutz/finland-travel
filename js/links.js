@@ -19,11 +19,26 @@ var LINKS = [
     ]
   },
   {
-    title: "Unterkunft: Mökki",
+    title: "Unterkünfte",
     items: [
+      { what: "Sokos Hotel Presidentti, Helsinki", small: "19.–20.02.2027 · Standard-Zweibettzimmer (ca. 21 m²) mit Frühstück · 123 € laut Angebot nicht erstattungsfähig und nicht änderbar · Zahlung an LOMA (Rechnung folgt)", url: "https://www.google.com/maps/search/?api=1&query=Sokos+Hotel+Presidentti+Helsinki", ext: "Google Maps" },
+      { what: "Nordic Light Hotel, Stockholm", small: "26.02.–01.03.2027 · Standard-Zweibettzimmer (ca. 16 m²) mit Frühstück · 5.355 SEK (ca. 486 €) · Stornierung bis 23.02.2027 · Zahlung vor Ort im Hotel", url: "https://www.google.com/maps/search/?api=1&query=Nordic+Light+Hotel+Stockholm", ext: "Google Maps" },
       { what: "Lomarengas · Buchung", small: "20.–25.02.2027 · 5 Nächte · Mökki Pihlajanmarja, Kukasjärvi (Sodankylä)", ref: "#2168339", url: "https://www.lomarengas.fi/mokit/sodankyla-pihlajanmarja-15461", ext: "lomarengas.fi" },
       { what: "Lomarengas · Objekt", small: "Pihlajanmarja", ref: "15461 PIHLAJANMARJA" },
       { what: "Lomarengas · Kundennummer", ref: "1228585" }
+    ]
+  },
+  {
+    title: "Mietwagen",
+    items: [
+      { what: "Mietwagen ab/bis Bahnhof Rovaniemi (VW Golf-Klasse)", small: "Abholung Sa 20.02. ca. 16:30 · Rückgabe Do 25.02. ca. 08:00 · gebucht über LOMA beim Makler AutoEurope · Voucher-PDF in der Buchungsmail (Voucher 978172292)", url: "https://www.autoeurope.de", ext: "autoeurope.de" },
+      { what: "Hinweise zur Abholung", small: "Kreditkarte für 500 € Kaution nötig · keine unnötigen Zusatzleistungen annehmen — die Selbstbeteiligung im Schadensfall wird über AutoEurope erstattet (Unfall-/Polizeibericht einreichen)" }
+    ]
+  },
+  {
+    title: "Reisebüro",
+    items: [
+      { what: "LOMA Reiseagentur (Ansprechpartner: Henrik)", small: "Hotels Helsinki und Stockholm sowie Mietwagen · Rechnung folgt per Mail", url: "mailto:reiseagentur@loma.de", ext: "reiseagentur@loma.de" }
     ]
   },
   {
