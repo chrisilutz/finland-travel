@@ -37,7 +37,7 @@
       desc: "Lomarengas #2168339 · 20.–25.02.2027 · 5 Nächte mit holzbefeuerter Strandsauna am Kukasjärvi.",
       link: "https://www.lomarengas.fi/mokit/sodankyla-pihlajanmarja-15461" },
     turku: { coords: [60.4353, 22.2242], name: "Turku Satama",
-      desc: "Viking Line M/S Viking Grace nach Stockholm, Abfahrt 25.02. um 20:55 Uhr, Ankunft 26.02. um 06:30 · Buchung 6283827 (bezahlt).",
+      desc: "Viking Line M/S Viking Grace nach Stockholm, Abfahrt 25.02. um 20:55 Uhr, Ankunft 26.02. um 06:30 · Innenkabine für 2, Buchung 6283827 (bezahlt). Check-in bis 20:25 am Terminal Linnansatama.",
       link: "https://www.vikingline.com" },
     nordiclight: { coords: [59.3313, 18.0585], name: "Nordic Light Hotel",
       desc: "Vasaplan 7, am Hauptbahnhof · 26.02.–01.03. mit Frühstück · Check-in 15:00–00:00 · Bezahlung vor Ort · kostenlos stornierbar bis 24.02. 23:59 Uhr.",
