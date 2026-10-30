@@ -51,7 +51,7 @@ var LINKS = [
   {
     title: "Fähre & Nachtzug",
     items: [
-      { what: "Viking Line: Nachtfähre Turku → Stockholm", small: "25.02.2027 · Abfahrt 20:55 Uhr · Schlafkabine · Interrail-Rabatt", url: "https://www.vikingline.com", ext: "vikingline.com" },
+      { what: "Viking Line: Nachtfähre Turku → Stockholm (M/S Viking Grace)", small: "Do 25.02.2027, Abfahrt 20:55 → Fr 26.02.2027, Ankunft 06:30 · bezahlt · gültiges Reisedokument für jede Person erforderlich · Kabinendetails im PDF der Buchungsbestätigung", ref: "6283827", url: "https://www.vikingline.com", ext: "vikingline.com" },
       { what: "SJ Night train: Stockholm C → Malmö C", small: "Mo 01.03.2027 · 23:16 → Di 02.03. 06:59 · 1. Klasse, privates Schlafabteil (Wagen 12, Plätze 16 und 18) · Bett gemacht, Dusche/WC, Frühstück, SJ Lounge · 2 Reisende: Vera Taube, Christian Lutz · erstattbar", ref: "WQXTRN7J", url: "https://www.sj.se", ext: "sj.se" }
     ]
   },
