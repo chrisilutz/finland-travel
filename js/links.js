@@ -21,8 +21,8 @@ var LINKS = [
   {
     title: "Unterkünfte",
     items: [
-      { what: "Sokos Hotel Presidentti, Helsinki", small: "19.–20.02.2027 · Standard-Zweibettzimmer (ca. 21 m²) mit Frühstück · 123 € laut Angebot nicht erstattungsfähig und nicht änderbar · Zahlung an LOMA (Rechnung folgt)", url: "https://www.google.com/maps/search/?api=1&query=Sokos+Hotel+Presidentti+Helsinki", ext: "Google Maps" },
-      { what: "Nordic Light Hotel, Stockholm", small: "26.02.–01.03.2027 · Standard-Zweibettzimmer (ca. 16 m²) mit Frühstück · 5.355 SEK (ca. 486 €) · Stornierung bis 23.02.2027 · Zahlung vor Ort im Hotel", url: "https://www.google.com/maps/search/?api=1&query=Nordic+Light+Hotel+Stockholm", ext: "Google Maps" },
+      { what: "Original Sokos Hotel Presidentti, Helsinki", small: "19.–20.02.2027 · Standard-Zweibettzimmer mit Frühstück, auf Vera Taube reserviert (2 Erwachsene) · Eteläinen Rautatiekatu 4, 00100 Helsinki · Tel. +358 20 1234608 · Check-in ab 15:00 · nicht erstattungsfähig und nicht änderbar · Zahlung an LOMA (123 €, Rechnung folgt)", ref: "Reiseplan 73576325442033", url: "https://www.google.com/maps/search/?api=1&query=Original+Sokos+Hotel+Presidentti+Eteläinen+Rautatiekatu+4+Helsinki", ext: "Google Maps" },
+      { what: "Nordic Light Hotel, Stockholm", small: "26.02.–01.03.2027 (3 Nächte) · Standardzimmer mit Frühstück, auf Vera Taube reserviert (2 Erwachsene) · Vasaplan 7, 101 37 Stockholm (am Hauptbahnhof) · Tel. +46 8 50563200 · Check-in 15:00–00:00 · kostenlos stornierbar bis 24.02.2027, 23:59 Uhr, danach Gebühr in Höhe der ersten Nacht · 5.355,02 SEK, Zahlung vor Ort", ref: "74545SH186732", url: "https://www.google.com/maps/search/?api=1&query=Nordic+Light+Hotel+Vasaplan+7+Stockholm", ext: "Google Maps" },
       { what: "Lomarengas · Buchung", small: "20.–25.02.2027 · 5 Nächte · Mökki Pihlajanmarja, Kukasjärvi (Sodankylä)", ref: "#2168339", url: "https://www.lomarengas.fi/mokit/sodankyla-pihlajanmarja-15461", ext: "lomarengas.fi" },
       { what: "Lomarengas · Objekt", small: "Pihlajanmarja", ref: "15461 PIHLAJANMARJA" },
       { what: "Lomarengas · Kundennummer", ref: "1228585" }
@@ -31,14 +31,15 @@ var LINKS = [
   {
     title: "Mietwagen",
     items: [
-      { what: "Mietwagen ab/bis Bahnhof Rovaniemi (VW Golf-Klasse)", small: "Abholung Sa 20.02. ca. 16:30 · Rückgabe Do 25.02. ca. 08:00 · gebucht über LOMA beim Makler AutoEurope · Voucher-PDF in der Buchungsmail (Voucher 978172292)", url: "https://www.autoeurope.de", ext: "autoeurope.de" },
-      { what: "Hinweise zur Abholung", small: "Kreditkarte für 500 € Kaution nötig · keine unnötigen Zusatzleistungen annehmen — die Selbstbeteiligung im Schadensfall wird über AutoEurope erstattet (Unfall-/Polizeibericht einreichen)" }
+      { what: "Mietwagen Green Motion, Bahnhof Rovaniemi", small: "VW Golf oder ähnlich, Kompaktklasse, Schaltgetriebe, Klimaanlage · Fahrerin: Vera Taube · Abholung Sa 20.02.2027 16:30, Rückgabe Do 25.02.2027 08:00 · Ratakatu 5, 96100 Rovaniemi · Tel. +358 600 555844 · täglich 07:00–21:30 · gebucht über LOMA bei Auto Europe (Voucher 978172292)", ref: "AEU(M)-7218800-71994", url: "https://www.google.com/maps/search/?api=1&query=Green+Motion+Rovaniemi+Bahnhof+Ratakatu+5", ext: "Google Maps" },
+      { what: "Abholung: mitbringen", small: "Physischer Führerschein (keine digitale Kopie, ggf. internationaler) und physische Kreditkarte auf den Namen der Hauptfahrerin Vera Taube · Kaution 500 € · Meet & Greet in der Bahnhofshalle, Autos neben dem Hauptgebäude, Schlüsselbox im Bahnhofsterminal" },
+      { what: "Im Preis enthalten", small: "Winterreifen, unbegrenzte Kilometer, Vollkasko (CDW) und Diebstahlschutz mit Selbstbeteiligung, Schäden an Rädern, Glas, Dach und Unterboden · Erstattung der Selbstbeteiligung bis 3.200 € pro Miete (Unfall-/Polizeibericht einreichen) · keine unnötigen Zusatzleistungen am Schalter annehmen" }
     ]
   },
   {
     title: "Reisebüro",
     items: [
-      { what: "LOMA Reiseagentur (Ansprechpartner: Henrik)", small: "Hotels Helsinki und Stockholm sowie Mietwagen · Rechnung folgt per Mail", url: "mailto:reiseagentur@loma.de", ext: "reiseagentur@loma.de" }
+      { what: "LOMA Reiseagentur GmbH, Mittelstr. 18, 65594 Runkel-Dehrn (Ansprechpartner: Henrik) · Tel. 06431-74546", small: "Hotels Helsinki und Stockholm sowie Mietwagen · Rechnung folgt per Mail", url: "mailto:reiseagentur@loma.de", ext: "reiseagentur@loma.de" }
     ]
   },
   {
